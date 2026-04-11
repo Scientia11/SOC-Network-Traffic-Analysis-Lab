@@ -2,7 +2,7 @@
 
 ## 📌 Overview
 
-This lab provides hands-on practice with `tcpdump`, progressing from basic packet capture to advanced SOC-level traffic analysis. Each task builds practical skills in network monitoring, filtering, and threat detection.
+This lab provides hands-on practice with `tcpdump` commands, progressing from basic packet capture to advanced traffic analysis. Each task builds practical skills in network monitoring, filtering, and threat detection.
 
 ---
 
