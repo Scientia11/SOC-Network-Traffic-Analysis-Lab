@@ -1,7 +1,3 @@
-# SOC-Network-Traffic-Analysis-Lab
-A hands-on SOC network traffic analysis project using tcpdump in Kali Linux. This lab demonstrates my ability to capture and analyze network traffic, identify protocols (DNS, HTTP, ICMP), and detect suspicious activities.
-
-
 # 🛡️ SOC Network Traffic Analysis Lab (TCPDump)
 
 ## 📌 Overview
@@ -23,9 +19,3 @@ This project demonstrates hands-on experience in network traffic analysis using 
 - Wireshark (optional for deeper analysis)
 
 ---
-
-## 🟢 Basic Tasks
-
-### Task 1: List Interfaces
-```bash
-tcpdump -D
