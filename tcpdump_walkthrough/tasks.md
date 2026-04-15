@@ -41,19 +41,19 @@ tcpdump -i eth0 -e
 ## Task 6: Display Packet Contents (ASCII)
 
 ```bash
-tcpdump -i eth0 -A
+tcpdump -i lo -A
 ```
 
 ## Task 7: Display Packet Contents (HEX + ASCII)
 
 ```bash
-tcpdump -i eth0 -XX
+tcpdump -i lo -X
 ```
 
 ## Task 8: Verbose Output
 
 ```bash
-tcpdump -i eth0 -v
+tcpdump -i lo -v
 ```
 
 ---
@@ -133,7 +133,7 @@ tcpdump -i eth0 tcp and not port 22
 ## Task 20: Capture Between Two Hosts
 
 ```bash
-tcpdump -i eth0 host 192.168.1.5 and host 192.168.1.10
+tcpdump -i eth0 host 10.0.2.15 and host 8.8.8.8
 ```
 
 ## Task 21: Capture Packets Larger Than 100 Bytes
